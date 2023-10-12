@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-gap: 1em;
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maxime dolores inventore obcaecati nisi quisquam tempore aliquam? Ab dolores delectus qui doloremque fugit. Asperiores blanditiis veniam hic suscipit aspernatur deserunt quod rerum! Consequatur labore, aliquid perspiciatis suscipit totam repellat soluta? Consectetur iste provident vero deleniti voluptatem animi esse harum iure natus illum dignissimos, eius amet ut, excepturi eos totam dolores, accusantium nemo quas dolorum. Incidunt repudiandae fugiat quaerat iste, cum voluptatum rem qui veritatis nesciunt consequatur ipsum quasi accusamus inventore.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A rem quo obcaecati asperiores itaque nulla accusantium est fugit sunt corporis, maxime facilis, odio deleniti iusto quos reiciendis! Maxime, explicabo ea!
+        </div>
+
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maxime dolores inventore obcaecati nisi quisquam tempore aliquam? Ab dolores delectus qui doloremque fugit. Asperiores blanditiis veniam hic suscipit aspernatur deserunt quod rerum! Consequatur labore, aliquid perspiciatis suscipit totam repellat soluta? Consectetur iste provident vero deleniti voluptatem animi esse harum iure natus illum dignissimos, eius amet ut, excepturi eos totam dolores, accusantium nemo quas dolorum. Incidunt repudiandae fugiat quaerat iste, cum voluptatum rem qui veritatis nesciunt consequatur ipsum quasi accusamus inventore.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A rem quo obcaecati asperiores itaque nulla accusantium est fugit sunt corporis, maxime facilis, odio deleniti iusto quos reiciendis! Maxime, explicabo ea!
+        </div>
+        
+    </div>
+</body>
+</html>

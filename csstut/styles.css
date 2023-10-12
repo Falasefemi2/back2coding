@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.nav {
+  width: 100vw;
+  height: 80px;
+  z-index: 10;
+  background: gray;
+  position: fixed;
+}
+
+.container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  display: flex;
+}
+
+.nav-links {
+  padding: 1rem;
+}
+
+.btn {
+  color: white;
+  border: 1px solid indigo;
+  background: indigo;
+  border-radius: 6px;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  color: indigo;
+}
+
+.button-container {
+    display: flex;
+    padding-right: 1rem;
+}
+
+.btn1 {
+    border: none;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.btn2 {
+    color: white;
+    border: 1px solid indigo;
+    background: indigo;
+    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  
+.btn2:hover {
+    background: transparent;
+    color: indigo;
+  }
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 1240px;
+    margin: auto;
+}
+
+.hero-container-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 2rem 0.5rem;
+}
+
+.hero-container-outside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    min-width: 300px;
+    bottom: -5%;
+    margin: 0 4rem;
+    left: 50%;
+    transform: translateX(50%);
+    background: gray;
+    border: 1px solid slategrey;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.p1 {
+   font-size: 1.5rem; 
+   line-height: 2rem;
+}
+
+.h1 {
+    padding: 0.75rem 0;
+    font-size: 4.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.img {
+    width: 100%;
+}
+
+.ptags {
+    padding: 0.5rem 2rem;
+}
